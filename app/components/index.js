@@ -1,1 +1,2 @@
 require('./dashboard');
+require('./projects');
