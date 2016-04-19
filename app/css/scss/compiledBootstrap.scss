@@ -1,0 +1,12 @@
+//@import "compass";
+//@import 'bootstrap-sprockets';
+@import "newVariables";
+@import "bootstrap";
+@font-face{
+  font-family:'Glyphicons Halflings';
+  src: image-url("../../../node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: image-url("../../../node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),
+       image-url("../../../node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"),
+       image-url("../../../node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"),
+       image-url("../../../node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg")
+}
