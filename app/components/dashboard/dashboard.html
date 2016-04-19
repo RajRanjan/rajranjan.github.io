@@ -1,2 +1,21 @@
-<h1>My profile is coming soon	</h1>
-<button class="btn-default" ui-sref="projects">raj</button>
+<div class="container">
+    <div class="page-header">
+        <h1 id="timeline">Timeline
+</h1>
+    </div>
+    <ul class="timeline">
+        <li ng-repeat="eachData in projectsData" ng-class="{'timeline-inverted':$index%2==0}">
+            <div class="timeline-badge"><i class="{{eachData.resource.icon}}"></i></div>
+            <div class="timeline-panel">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">{{eachData.title}}</h4>
+                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> {{eachData.date}}</small></p>
+                </div>
+                <div class="timeline-body">
+                    <p>{{eachData.summary}}</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- class="timeline-inverted" is used for rightside display -->
